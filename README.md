@@ -29,9 +29,13 @@ O resultado do código acima retorna um arquivo mais visual, organizado por tabe
 Saindo da imagem 1: <br>
 ![Captura de Tela 2023-12-13 às 17 16 00](https://github.com/Cleitoncsb/Convers-o-de-Arquivos-csv-para-xlxd-/assets/142935223/434006ee-c978-46d9-bafd-6459eae94d0e)<br>
 para a imagem 2: 
-![Captura de Tela 2023-12-13 às 17 14 44](https://github.com/Cleitoncsb/Convers-o-de-Arquivos-csv-para-xlxd-/assets/142935223/94bf2ab0-4a6c-4d23-9b67-9bbc8e9e0180)
+![Captura de Tela 2023-12-13 às 17 14 44](https://github.com/Cleitoncsb/Convers-o-de-Arquivos-csv-para-xlxd-/assets/142935223/b065eeb7-6b26-4e05-a144-377a626f7cb7)
 
 <h2>Sobre a Metodologia</h2>
 A aplicaçāo utilizada no código, segue os seguintes passos:</>
 
-
+<h3>1. Configuração Inicial:</h3> O script inicia configurando o ambiente de trabalho ao identificar o arquivo CSV de interesse e o número desejado de linhas para serem lidas, definido aqui como meio milhão.
+<h3>2. Carregamento de Dados: </h3> Utilizando a biblioteca pandas, especializada em análise de dados, o código procede com a leitura das linhas especificadas do arquivo CSV, que é uma tarefa comum em análises de dados por ser um formato amplamente usado para armazenamento de dados tabulares.
+<h3>3. Criação do DataFrame: </h3>Após a leitura, os dados são estruturados em um DataFrame do pandas. Essa estrutura é altamente flexível e interativa, permitindo manipulações e análises diversas, similar a uma tabela de banco de dados ou uma planilha eletrônica.
+<h3>4. Exportação para Excel: </h3>O passo final envolve a exportação do DataFrame para um arquivo Excel (.xlsx). Isso é feito por meio de um método inerente ao pandas que transpõe os dados para o formato do Excel, facilitando o compartilhamento e o acesso por usuários que preferem ferramentas de análise visual e interativa, como as oferecidas pelo Excel.
+<h3>5. Confirmação de Execução: </h3> Por fim, o script informa ao usuário que a operação de conversão foi bem-sucedida, indicando o caminho onde o novo arquivo Excel está salvo.
